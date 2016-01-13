@@ -1,0 +1,20 @@
+{
+  "name": "Fenyin front end",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-loader": "~1.4.0",
+    "html5-boilerplate": "~5.2.0",
+    "jquery": "~1.11.3",
+    "angular-animate": "~1.4.3",
+    "bootstrap": "~3.3.5",
+    "angular-bootstrap": "~0.13.2",
+    "dropzone": "~4.2.0"
+  }
+}

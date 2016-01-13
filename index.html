@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Haohan</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="jspm_packages/github/twbs/bootstrap@3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="jspm_packages/github/enyo/dropzone@4.2.0/min/dropzone.min.css">
+    <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="fonts/droidsansmono.css">
+    <link rel="stylesheet" href="fonts/montserrat.css">
+    <link rel="stylesheet" href="fonts/opensans.css">
+
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      System.import('app/bootstrap');
+    </script>
+  </head>
+
+  <body ng-controller="MainController as ctrl">
+
+    <div id="navbar" ng-include="ctrl.templates.navbar"></div>
+    <div id="content" ng-include="ctrl.templates.upload"></div>
+
+
+  <body>
+
+  </body>
+
+</html>
